@@ -49,3 +49,4 @@ Key computational components include:
 
 ### 2. Analytical vs. Computational Verification
 * **Model Precision:** Hand-derived equations matched OpenAP automated model outputs with less than **0.1% variance** in cruise drag ($39,881\text{ N}$ vs $39,910\text{ N}$), validating the underlying ISA flight physics before conducting full-route trajectory sweeps.
+**Final Verdict:** Ultimately, the **Boeing 737-800** is the preferred airframe for maximizing pure aerodynamic fuel efficiency on this 2,900 nm route due to its higher $L/D_{max}$ and lower parasite drag, whereas the **Airbus A321** is the preferred choice when prioritizing maximum payload capacity due to its superior induced drag profile under heavy loads.
