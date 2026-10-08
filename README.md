@@ -37,3 +37,15 @@ Key computational components include:
    * Ensure a Python 3.x environment is active.
    * Install the required dependencies: `pip install openap numpy matplotlib`
    * Open the notebook using Jupyter or Visual Studio Code and execute all cells sequentially.
+     ## Comparative Conclusions & Key Findings
+
+### 1. Aerodynamic Performance Comparison
+| Aerodynamic Parameter | Boeing 737-800 | Airbus A321 | Engineering Insight |
+| :--- | :---: | :---: | :--- |
+| **Zero-Lift Drag ($C_{D,0}$)** | **0.0190** | 0.0200 | B738 features cleaner parasite drag geometry. |
+| **Induced Drag Factor ($K$)** | 0.0420 | **0.0410** | A321 exhibits slightly better induced wing span loading. |
+| **Max Efficiency ($(L/D)_{\text{max}}$)** | **17.7** | 17.5 | B738 achieves a higher overall aerodynamic efficiency peak. |
+| **Optimum $C_L$ Point** | 0.675 | **0.699** | A321 operates more efficiently under higher payload targets. |
+
+### 2. Analytical vs. Computational Verification
+* **Model Precision:** Hand-derived equations matched OpenAP automated model outputs with less than **0.1% variance** in cruise drag ($39,881\text{ N}$ vs $39,910\text{ N}$), validating the underlying ISA flight physics before conducting full-route trajectory sweeps.
